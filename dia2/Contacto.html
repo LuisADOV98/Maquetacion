@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="contacto.css">
+    <title>Document</title>
+</head>
+<body>
+    <nav class="menu">
+        <div class="logo"><img src="imagenes/codenotch_logo.jpg" alt="Logo Codenotch"></div>
+        <div class="Home" ><a href="Contacto.html" class="colorlink" style="text-decoration:none">Contacto</a></div>
+        <div class="Galeria"><a href="Cursos.html" class="colorlink" style="text-decoration:none">Cursos</a></div>
+        <div class="Blog"><a href="EquipoC.html" class="colorlink" style="text-decoration:none">Equipo Codenotch</a></div>
+        <div class="Blog"><a href="landing.html" class="colorlink" style="text-decoration:none">Codenotch </a></div>
+    </nav>
+    <div class="padre1">
+    <div class="Formulario">
+        
+        <div class="formulario">			
+            <h1>Formulario de contacto</h1>
+                <h3>Escríbenos y en breve los pondremos en contacto contigo</h3>
+
+                <form action="submeter-formulario.php" method="post">				
+
+                    <p>
+                    <label for="nombre" class="colocar_nombre">Nombre
+                        <span class="obligatorio">*</span>
+                    </label>
+                        <input type="text" name="introducir_nombre" id="nombre" required="obligatorio" placeholder="Escribe tu nombre">
+                    </p>
+                        
+                    <p>
+                    <label for="email" class="colocar_email">Email
+                        <span class="obligatorio">*</span>
+                    </label>
+                        <input type="email" name="introducir_email" id="email" required="obligatorio" placeholder="Escribe tu Email">
+                    </p>
+                    
+                    <p>
+                    <label for="telefone" class="colocar_telefono">Teléfono
+                    </label>
+                        <input type="tel" name="introducir_telefono" id="telefono" placeholder="Escribe tu teléfono">
+                    </p>	
+                            
+                    <p>
+                        <label for="asunto" class="colocar_asunto">Asunto
+                            <span class="obligatorio">*</span>
+                        </label>
+                            <input type="text" name="introducir_asunto" id="assunto" required="obligatorio" placeholder="Escribe un asunto">
+                    </p>		
+                
+                    <p>
+                        <label for="mensaje" class="colocar_mensaje">Mensaje
+                            <span class="obligatorio">*</span>
+                        </label>                     
+                                <textarea name="introducir_mensaje" class="texto_mensaje" id="mensaje" required="obligatorio" placeholder="Deja aquí tu comentario..."></textarea> 
+                        </p>	  								
+                
+                    <button type="submit" name="enviar_formulario" id="enviar"><p>Enviar</p></button>
+
+                    <p class="aviso">
+                        <span class="obligatorio"> * </span>los campos son obligatorios.
+                    </p>					
+                        
+            </form>
+        </div>	
+    </div>
+</div>
+
+    <footer class="Footer">
+        <a href="https://www.facebook.com/codenotchMAD/"  class="colorlink">Facebook</a>
+        <a href=">https://twitter.com/i/flow/login?redirect_after_login=%2FCodenotchMAD"  class="colorlink">Twitter</a>
+        <a href="https://www.linkedin.com/school/codenotch/"  class="colorlink">linkedin</a>
+        <a href="https://www.instagram.com/codenotchmad/?hl=es" class="colorlink">instagram</a>
+    </footer>
+</body>
+</html>
