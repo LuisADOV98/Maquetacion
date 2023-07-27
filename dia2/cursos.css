@@ -1,0 +1,58 @@
+*{margin: 0;}
+*{padding: 0;}
+
+.colorlink{
+    color: white;
+}
+.menu{
+    background-color: black;
+    height: 70px;
+    font-size: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+    width: 100%;
+}
+.logo{
+    display: flex;
+    width: 2%;
+    list-style-type: none;
+    height: 70px;
+    
+
+}
+.padre1{
+    background-image: url(imagenes/fondo_cursos.webp);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    height: 100%;
+    padding: 2px;
+}
+.padre2{
+    background-image: url(imagenes/fondo_cursos.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+    color: white;
+    padding: 2px;
+    gap: 20px;
+}
+
+.Footer{ background-color: black;
+    height: 70px;
+    font-size: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+   
+    width: 100%;
+}

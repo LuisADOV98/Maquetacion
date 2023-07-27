@@ -1,0 +1,89 @@
+*{margin: 0;}
+*{padding: 0;}
+
+.colorlink{
+    color: white;
+}
+.menu{
+    background-color: black;
+    height: 70px;
+    font-size: 30px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+    width: 100%;
+}
+.Footer{ background-color: black;
+    height: 70px;
+    font-size: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+   
+    width: 100%;
+}
+.padre1{
+    background-image:url(imagenes/fondo_landing3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 20%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    gap: 20px;
+    padding: 30px;
+    
+}
+.hijo1{
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.texto1{
+    color: white;
+}
+.texto{
+    
+    color: white;
+}
+.texto2{
+    color: rgb(255, 255, 255);
+}
+.imagen2{
+    height: 250px;
+    width: 100%;
+}
+.imagen3{
+    height: 250px;
+    width: 100%;
+}
+.padre2{
+    background-color: blue;
+    height: 200px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.colorlink2{
+    color: white;
+}
+.padre3{
+    background-color: black;
+    height: 300px;
+    width: 100%;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+}
+.imagenes4{
+    height: 200px;
+    width: 400px;
+}

@@ -1,0 +1,16 @@
+*{margin: 0;}
+*{padding: 0;}
+
+.colorlink{
+    color: white;
+}
+.menu{
+    background-color: black;
+    height: 70px;
+    font-size: 30px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+    width: 100%;
+}
