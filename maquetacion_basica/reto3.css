@@ -1,0 +1,141 @@
+*{padding :0%}
+*{margin: 0,2%}
+
+.padre{
+    border: 8px solid rgb(223, 218, 218);
+    height: 90vh;
+    width: 37%;
+    border-radius: 15px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content:start;
+    gap: 1px;
+    padding: 1px;
+}
+.hijo1{
+    border: 5px solid rgb(145, 195, 160);
+    height: 80px;
+    width: 95%;
+    border-radius: 4px;
+    display: flex;
+    flex-direction: column;
+    justify-content:start;
+    margin: 4px;
+    padding: 5px;
+}
+.hijo2{
+    border: 5px solid rgb(219, 189, 234);
+    height: 40;
+    width: 95%;
+    border-radius: 3px;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: start;
+    margin: 4px;
+    padding: 5px;
+
+}
+.hijo3{
+    /* border: 5px solid rgb(21, 195, 195); */
+    height: 500px;
+    width: 97%;
+    border-radius: 7px;
+    display: flex;
+    flex-direction: row;
+    /* justify-content:flex-end; */
+    /* margin: 2px; */
+    padding: 9px;
+    gap: 10px;
+}
+.nieto1{
+    border: 4px  solid rgb(90, 177, 206);
+    height: 420px;
+    width: 70%;
+    border-radius: 7px;
+    padding: 2px;
+    /* margin: 2px; */
+    gap: 5px;
+}
+.bisnieto1{
+    border: 4px solid rgb(145, 195, 160);
+    height: 20px;
+    width: 93%;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content:start;
+    margin: 1px;
+    padding: 5px;
+}
+.bisnieto2{   
+   
+
+    height: 363px;
+    display: flex;
+    flex-direction:column;
+    justify-content:end;
+    align-items: start;
+    
+    
+ 
+
+}
+.tataranieto1{
+    border: 4px solid rgb(190, 131, 202);
+    height: 20px;
+    width: 93%;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content:flex-end;
+    margin: 1px;
+    padding: 5px;
+}
+.tataranieto2{
+    border: 4px solid rgb(226, 211, 147);
+    height: 7px;
+    width: 93%;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    margin: 1px;
+    padding: 5px;
+}
+.nieto2{
+    border: 5px solid rgb(226, 211, 147);
+    height: 413px;
+    width: 30%;
+    border-radius: 7px;
+    display: flex;
+    flex-direction: column;
+    justify-content:start;
+    /* margin: 2px; */
+    padding: 5px;
+    gap: 3px;
+}
+.bisnieto1n2{
+    border: 5px solid rgb(93, 226, 206);
+    height: 180px;
+    width: 85%;
+    border-radius: 7px;
+    display: flex;
+    flex-direction: column;
+    justify-content:start;
+    padding: 5px;
+
+}
+.hijo4{
+    border: 4px solid rgb(226, 211, 147);
+    height: 45px;
+    width: 95%;
+    border-radius: 3px;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: start;
+    margin: 4px;
+    padding: 5px;
+}

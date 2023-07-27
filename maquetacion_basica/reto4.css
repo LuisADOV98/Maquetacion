@@ -1,0 +1,66 @@
+*{margin: 0;}
+*{padding: 0;}
+
+.colorlink{
+    color: white;
+}
+.selector{
+    background-color: black;
+    height: 70px;
+    font-size: 30px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+    width: 100%;
+}
+
+.h1{
+    width: 40%;
+    height: 88%;
+    display: flex;
+    
+    justify-content: center;
+    
+    
+    padding: 50px;
+    
+   
+}
+.padre1{
+  
+    height: 450px;
+    width: 30000;
+    display: flex;
+    
+    justify-content:center;
+    /* padding: 1px; */
+    
+}
+.hijo1{
+    
+    height: 100%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.parrafo{
+    height: 20%;
+    width: 700px;
+    font-size: 12px;
+  
+}
+.hijo2{
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    align-items: center;
+}
+.imagen1{
+    height: 550px;
+    width: 420px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
