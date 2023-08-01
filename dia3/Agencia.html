@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="agencia.css">
+    <script src="agencia.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <div class="barra">
+        <img src="images/logoCortado.jpg" alt="logo" class="logo">
+       <div class="texto1" ><class="colorlink" style="text-decoration:solid">VIAJES AGUILA</a></div>
+       <div class="textoP">¡¡¡¡¡Tu proxima aventura esta esperandote!!!!!</div>
+    </div>
+<!-- ************************************************************************************************************** -->
+    <div class="padre1">
+
+        <div class="hijo1">
+            <img src="images/boletos.jpg" alt="boletos">
+            <div class="text1">
+                <h2>¡Hoy es tu gran oportunidad!</h2>
+                <div class="parrafo1">Escoge el destino perfecto para ti, <br>
+                    cualquier parte del mundo y <br>
+                con los mejores descuentos, hoteles, <br>
+                paseos, alquileres de vehiculos y de mas</div>
+            </div>
+            <img src="images/roma.jpg" alt="roma">
+        </div>
+
+        <div class="hijo2">
+            <div class="nieto1"><img src="images/paris2.jpg" alt="paris2"></div>
+            <div class="parrafoP">
+                <h1>En nuestras mejores opciones esta PARIS</h1>
+                <p>París es la capital de Francia y <br>
+                    una de las grandes ciudades europeas. <br>
+                    Es para muchos el destino turístico <br>
+                    más romántico y popular de todo el planeta.</p>
+            </div>
+        </div>
+            <div class="hijo3">
+                <div class="roma"><img src="images/roma2.jpg" alt=""></div>
+                    <div class="parrafoP">
+                        <h1>Simplemente ROMA</h1>
+                    <p>El Coliseo, el símbolo de Roma y <br>
+                        el anfiteatro más grande del mundo. <br>
+                        El Foro Romano y el Palatino, el centro <br>
+                        de la vida política, religiosa y social <br>
+                        de la antigua Roma. <br>
+                        El Arco de Constantino, el monumento <br>
+                        triunfal más famoso de Roma. <br>
+                        Los Museos Capitolinos, el conjunto <br>
+                        de museos más antiguo del mundo, <br>
+                        con obras de arte y arqueología. <br>
+                        La Piazza Venecia y el Monumento <br>
+                        a Vittorio Emanuele II, el imponente <br>
+                        edificio blanco dedicado al primer <br>
+                        rey de Italia.
+                        Los Museos Vaticanos y la Capilla Sixtina, <br>
+                        el complejo museístico más grande y <br>
+                        rico del mundo, con obras maestras como <br>
+                        la Pietà de Miguel Ángel o el Juicio Final.</p>
+                    </div>
+            </div>
+
+            <div class="hijo4">
+                <div class="porto"><img src="images/porto1.jpg" alt=""></div>
+            
+            <div class="parrafoP1">
+                <h1>Y como no Oporto</h1>
+                <p>
+                    El Puente Don Luis I, que une Oporto <br>
+                    con Vila Nova de Gaia y ofrece unas vistas <br>
+                    espectaculares del río Duero y la Ribeira. <br>
+                    La Ribeira, el barrio más pintoresco y <br>
+                    animado de la ciudad, donde se puede <br>
+                    pasear por el río, tomar algo en una <br>
+                    terraza o disfrutar del atardecer. <br>
+                    Las bodegas de Vila Nova de Gaia, <br>
+                    donde se puede degustar el famoso <br>
+                    vino de Oporto y conocer su historia <br>
+                    y elaboración. <br>
+                    La Torre de los Clérigos, el símbolo <br>
+                    de Oporto, que se puede subir para <br>
+                    admirar una panorámica de 360 grados <br>
+                    de la ciudad.
+                </p>
+            </div>
+        </div>
+    </div>
+
+<!-- ********************************************************************************************************************* -->
+
+    <div class="padre2">
+
+        <div class="Formulario">
+            
+            <div class="formulario">			
+                <h1>Encuentra tu vuelo ideal</h1>
+                    
+    
+                    <form action="submeter-formulario.php" method="post">				
+    
+                        <p>
+                        <label for="nombre" class="colocar_nombre">Nombre
+                            <span class="obligatorio">*</span>
+                        </label>
+                            <input type="text" name="introducir_nombre" id="nombre" required="obligatorio" placeholder="Escribe tu nombre">
+                        </p>
+                            
+                        <p>
+                        <label for="origen" class="colocar_origen">Origen
+                            <span class="obligatorio">*</span>
+                        </label>
+                            <input type="origen" name="introducir_Origen" id="origen" required="obligatorio" placeholder="Ciudad de origen">
+                        </p>
+                        
+                        <p>
+                        <label for="destino" class="introducir_Destino">Destino
+                        </label>
+                            <input type="Dest" name="introducir_Destino" id="destino" placeholder="Escribe tu destino">
+                        </p>	
+                                
+                        <p>
+                            <label for="NdePersonas" class="colocar_NdePersonas">Numero de personas
+                                <span class="obligatorio">*</span>
+                            </label>
+                                <input type="number" name="introducir_NdePersonas" id="NdePersonas" required="obligatorio" placeholder="Escribe un numero de personas">
+                        </p>		
+                    
+                        <p>
+                            <label for="fecha">Fecha:</label>
+                            <input type="date" id="fecha" name="fecha" required>
+                            </p>	  								
+            
+                            <input type="button" value="Encontrar tu viaje" onclick="recogerInfo()">
+                            <input type="button" value="Filtrar" onclick="filtro()">
+    
+                        <p class="aviso">
+                            <span class="obligatorio"> * </span>los campos son obligatorios.
+                        </p>					
+                            
+                </form>
+            </div>	
+        </div>
+    </div>
+</div>
+
+<!-- **************************************************************************************************************************** -->
+
+    <footer class="footer">
+        <img src="images/logoCortado.jpg" alt="logo" class="logo">
+        <div class="texto1" ><class="colorlink" style="text-decoration:solid">VIAJES AGUILA</a></div>
+        <div class="textop2">¡Vuelve pronto!</div>
+    </footer>
+    
+</body>
+</html>

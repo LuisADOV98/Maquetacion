@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="portafolio.css">
+    <title>Portafolio</title>
+</head>
+<body>
+    <nav class="menu">
+        <div class="logo"><img src="img/logo_ldo.png" alt="Logo"></div>
+        <div class="Home" ><a id="portafolio" href="#portafolio" class="colorlink" style="text-decoration:none">Portafolio</a></div>
+        <div class="Galeria"><a href="#proyectos" class="colorlink" style="text-decoration:none">Proyectos</a></div>
+        <div class="Blog"><a href="#conocimientos" class="colorlink" style="text-decoration:none">Conocimientos</a></div>
+        <div class="Blog"><a href="#contacto" class="colorlink" style="text-decoration:none">Contacto</a></div>
+    </nav>
+    <main class="portafolio" id="conocimientos">
+        <div class="n1">
+            <img src="img/yomero.jpg" alt="Yo">
+                <div class="Yo">
+                <div class="glass-effect">              
+                <h1>Luis De Oliveira</h1>
+                <p>Programador junior en <br>
+                formacion full stack developer</p>
+                </div>
+            </div>
+            <div class="Conocimientos">
+                <div class="glass-effect">
+                <h1>Las tecnologias que se usar son: </h1> 
+                <h2>Javascript  -  Typescript</h2>
+                <h2>Html  -  Css</h2>
+            </div>
+            </div>
+        </div>
+        
+        <div class="n2" id="proyectos">
+            <div class="glass-effect">
+                <h1>Proyectos</h1>
+                <h3>en mi fromacion en este bootcamp <br>
+                he aprendido a desarrolar lo siguente:</h3>
+            </div>
+
+            <div class="proyectos">
+                <div class="glass-effect">
+
+                    <div class="imdb">
+                    <h1 class="imdb">IMDB</h1>
+                    He creado un proyecto Imdb con 
+                    Typescript.
+                    </div>
+
+                    <div class="Galeria">
+                        <h1 class="galery">Galeria</h1>
+                        he maquetado una galeria de <br>
+                        arte con Html y Css.
+                    </div>
+
+                    <div class="PageCodenotch">
+                        <h1 class="code">Codenotch</h1>
+                        utilizando Html y Css he creado <br>
+                        una pagina web de codenotch.
+                    </div>
+
+                    <div class="agencia">
+                        <h1 class="adv">Agencia de viajes</h1>
+                        Con Javascript, Html y Css he creado <br>
+                        una pagina web sobre una agencia de viajes
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="padre2">
+
+            <div class="Formulario" id="contacto">
+                
+                <div class="glass-effect">			
+                    <h1>Contacta conmigo</h1>
+                        
+        
+                        <form action="submeter-formulario.php" method="post">				
+        
+                            <p>
+                            <label for="nombre" class="colocar_nombre">Nombre
+                                <span class="obligatorio">*</span>
+                            </label>
+                                <input type="text" name="introducir_nombre" id="nombre" required="obligatorio" placeholder="Escribe tu nombre.">
+                            </p>
+                                
+                            <p>
+                            <label for="Telefono" class="colocar_Telefono">Telefono
+                                <span class="obligatorio">*</span>
+                            </label>
+                                <input type="origen" name="introducir_Telefono" id="Telefono" required="obligatorio" placeholder="Numero de telefono.">
+                            </p>
+                            
+                            <input type="button" value="enviar" class="button" onclick="recogerInfo()">
+                                
+        
+                            <p class="aviso">
+                                <span class="obligatorio"> * </span>los campos son obligatorios.
+                            </p>					
+                                
+                    </form>
+                </div>	
+            </div>
+        </div>
+    </div>
+
+        
+
+
+
+    </main>
+   
+        <footer>
+            <nav class="foot">
+            <a href="https://github.com/LuisADOV98" class="colorlink" style="text-decoration:none"><img src="img/logogit.png" alt="logogit"></a>
+        </nav></footer>
+</body>
+</html>
