@@ -1,0 +1,323 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+ .grid{
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 40% 20% 40%;
+    grid-template-rows: 50% 50%;
+}
+.a{
+    background-color: rgb(125, 214, 95);
+    color: white;
+    font-size: x-large;
+    text-align: center;
+}
+.b{
+    background-color: rgb(238, 141, 30);
+    color: white;
+    font-size: x-large;
+    text-align: center;
+}
+.c{
+    background-color: rgb(255, 55, 0);
+    color: white;
+    font-size: x-large;
+    text-align: center;
+}
+.d{
+    background-color: rgb(209, 20, 20);
+    color: white;
+    font-size: x-large;
+    text-align: center;
+}
+.e{
+    background-color: rgb(29, 0, 250);
+    color: white;
+    font-size: x-large;
+    text-align: center;
+}
+.f{
+    background-color: rgb(238, 208, 76);
+    color: white;
+    font-size: x-large;
+    text-align: center;
+} 
+
+/* -------------------------------------------------------------------------------------------------- */
+
+ /* .fracciones{
+    height: 100vh;
+    display: grid;
+    
+    grid-template-columns: 2fr 1fr 2fr 2fr 1fr 2fr;
+    grid-template-rows: 2fr 1fr;
+}
+.a{
+    background-color: rgb(157, 232, 82);
+    color: black;
+    font-size: x-large;
+    text-align: center;
+}
+.b{
+    background-color: black;
+    color: white;
+    font-size: x-large;
+    text-align: center;
+}
+.c{
+    background-color: rgb(157, 232, 82);
+    color: black;
+    font-size: x-large;
+    text-align: center;
+}
+.d{
+    background-color: black;
+    color: white;
+    font-size: x-large;
+    text-align: center;
+}
+.e{
+    background-color: rgb(157, 232, 82);
+    color: black;
+    font-size: x-large;
+    text-align: center;
+}
+.f{
+    background-color: black;
+    color: white;
+    font-size: x-large;
+    text-align: center;
+
+}  */
+
+/* ----------------------------------------------------------------------------- */
+
+/* .padre{
+    height: 100vh;
+    display: grid;
+    grid-template-columns: [x1] 2fr [x2] 1fr [x3] 1fr [x4];
+    grid-template-rows:[y1] 1fr [y2] 6fr [y3] 1fr [y4] ;
+}
+.header{
+    font-size: 50px;
+    grid-column: x1 / x4;
+    grid-row: y1 / y2;
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 30px;
+}
+.contP{
+    grid-column: x1 / x3;
+    grid-row: y2 / y3;
+    background-color: blue;
+    color: white;
+    display: grid;
+    grid-template-columns: [x1] 2fr [x2] 1fr [x3];
+    grid-template-rows: [y1] 1fr [y2] 2fr [y3] ;
+    padding: 10px;
+    gap: 5px;
+}
+.contenido{
+    font-size: 50px;
+    border: 2px solid white;
+    padding: 5px;
+
+    grid-column: x1 / x3;
+    grid-row: y1 / y2;
+}
+.texto1{
+    font-size: 25px;
+    border: 2px solid white;
+    padding: 5px;
+    grid-column: x1 / x2;
+    grid-row: y2 / y3;
+}
+.texto2{
+    font-size: 25px;
+    border: 2px solid white;
+    padding: 5px;
+    grid-column: x2 / x3;
+    grid-row: y2 / y3;
+}
+.menuP{
+    background-color: rgb(46, 207, 132);
+    display: grid;
+    grid-template-columns: [x1] 1fr [x2];
+    grid-template-rows: [y1] 1fr [y2] 1fr [y3] 1fr [y4] 1fr [y5];
+    padding: 8px;
+    gap: 5px;
+}
+.menu{
+    font-size: 40px;
+    border: 2px solid black;
+    color: white;
+    text-align: center;
+    padding: 30px;
+    grid-column: x1 / x2;
+    grid-row: y1 / y2;
+}
+.menu1{
+    font-size: 25px;
+    background-color: black;
+    color: white;
+    padding: 30px;
+    text-align: center;
+    grid-column: x1 / x2;
+    grid-row: y2 / y3;
+}
+.menu2{
+    font-size: 25px;
+    background-color: black;
+    color: white;
+    padding: 30px;
+    text-align: center;
+    grid-column: x1 / x2;
+    grid-row: y3 / y4
+    ;
+}
+.menu3{
+    font-size: 25px;
+    background-color: black;
+    color: white;
+    padding: 30px;
+    text-align: center;
+    grid-column: x1 / x2;
+    grid-row: y4 / y5
+    ;
+}
+.footP{
+    background-color: rgb(100, 10, 100);
+    grid-column: x1 / x4;
+    grid-row: y3 / y4;
+    padding: 3px;
+    gap: 3px;
+    display: grid;
+    grid-template-columns: [x1] 1fr [x2] 1fr [x3];
+    grid-template-rows: [y1] 2fr;
+}
+.footer{
+    border: 2px solid black;
+    color: white;
+    height: 100px;
+    font-size: 30px;
+    padding: 30px;
+    text-align: center;
+    grid-column: x1 / x2;
+    grid-row: y3 / y4;
+}
+.contacto{
+    border: 2px solid black;
+    color: white;
+    font-size: 30px;
+    padding: 30px;
+    text-align: center;
+    grid-column: x2 / x3;
+    grid-row: y4 / y5;
+}  */
+
+/* ----------------------------------------------------------------- */
+
+/* .padre{
+    height: 100vh;
+    display: grid;
+    grid-template-areas:
+    'header header imagen'
+    'aside contenedor contenedor' 
+    'footer footer footer';
+    
+}
+.header{
+    grid-area: header;
+    background-color: rgb(186, 38, 5);
+    color: white;
+    font-size: x-large;
+    text-align: center;
+    padding: 15px;
+}
+.imagen{
+    grid-area: imagen;
+    background-color: rgb(110, 19, 13);
+    color: white;
+    font-size: x-large;
+    text-align: center;
+    padding: 15px;
+}
+.aside{
+    grid-area: aside;
+    background-color: rgb(255, 89, 0);
+    padding: 10px;
+    font-size: x-large;
+    text-align: center;
+    
+    display: grid;
+    grid-template-areas: 
+    'aside1 aside1 '
+    'aside0 aside0 '
+    'aside00 aside00'
+    'aside2 aside2 ';
+}
+.aside1{
+    grid-area: aside1;
+    background-color: white;
+    color: red;
+    padding: 40px;
+    font-size: 25px;
+    
+}
+.aside0{
+    grid-area: aside0;
+    background-color: rgb(255, 89, 0);;
+    padding: 40px;
+    
+}
+.aside00{
+    grid-area: aside00;
+    background-color: rgb(255, 89, 0);;
+    padding: 40px;
+    
+}
+.aside2{
+    grid-area: aside2;
+    background-color: white;
+    color: red;
+    padding: 40px;
+    font-size: 25px;
+}
+.contenedor{
+    grid-area: contenedor;
+    background-color: rgb(247, 62, 29);
+    padding: 13px;
+    gap: 10px;
+    display: grid;
+    grid-template-areas: 
+    'contenido contenido contenido'
+    'texto texto texto';
+}
+.contenido{
+    grid-area: contenido;
+    border: 2px solid white;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    font-size: 25px;
+}
+.texto{
+    grid-area: texto;
+    border: 2px solid white;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    font-size: 25px;
+}
+.footer{
+    grid-area: footer;
+    background-color: rgb(71, 2, 9);
+    font-size: 25px;
+    color: white;
+    text-align: center;
+    padding: 15px;
+} */
