@@ -1,0 +1,33 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: 0;
+}
+.colorlink{
+    color: white;
+}
+.selector{
+    background-color: black;
+    height: 70px;
+    width: 100%;
+    font-size: 30px;
+    
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+    width: 100%;
+}
+.imagenes{
+    background-color: black;
+    height: 13%;
+    width: 100%;
+
+    display: flex;
+    flex-direction:row;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+   .Imagen{
+    width: 33%;
+   }
