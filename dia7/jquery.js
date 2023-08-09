@@ -9,6 +9,8 @@ let pantalonAncho = {type: "Pantalon Ancho", price: 30};
 
 let arrPrendas = [];
 
+jQuery(() =>{
+
 $("#pantalonGris").on("click",() => {
     arrPrendas.push(pantalonGris);
 });
@@ -43,11 +45,13 @@ $("#pantalonAncho").on("click",() => {
 
 $("#carrito").on("click",() => {
     $("#cesta").modal("show");
-    let total = 0;
+    let compra = 0;
     for(prenda of arrPrendas){
-        $("#total").append("PRENDA: " + prenda.type + prenda.price + "€");
+        $("#compra").append(" " + prenda.type + " " + prenda.price + "€ <br>" );
 
-        total += prenda.price
+        compra += prenda.price
     }
+    $("#suma").append("<p>TOTAL COMPRA: " + compra + "€</p>");
 });
 
+})
