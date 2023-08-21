@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>THE MOVIE</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
+<script src="Movie.js"></script>
+<link rel="stylesheet" href="movie.css">
+</head>
+<body>
+    <main>
+    
+        <nav class="barra">
+            <h1>THE MOVIE</h1>
+            <button type="button" ><a href="pros.html" style="text-decoration: none; color: black;">Professional</a></button>
+            <button type="button" ><a href="movie.html" style="text-decoration: none; color: black;">Movies</a></button>
+           </nav>
+
+           <div class="cartas">
+            <div class="cards" id="cartas">
+             <div class="cards" id="Movies"> </div>    
+             
+  
+               
+           </div>
+           
+      
+
+        <div class="Formulario">
+        <h2>Ingresar una nueva pelicula</h2>
+        <div class="contform">
+            <h4>NOMBRE DE PELICULA</h4> 
+             <input type="text" class="actors" id="titulo">
+            <h4>AÑO DE PUBLICACION</h4> 
+             <input type="text" class="whiter" id="publicacion">
+            <h4>FOTO</h4> 
+             <input type="text" class="director" id="foto">
+             <h4>ACTORES</h4> 
+             <input type="text" class="actores" id="actores">
+            <h4>DIRECTOR</h4> 
+             <input type="text" class="director" id="director">
+             <input type="reset" value="Limpiar" class="enviar">
+             <input type="button" value="Ingresar" class="enviar" onclick="mostrarMovie()">
+        </div>
+        </div>
+
+        
+    </main>
+</body>
+</html>
